@@ -1,5 +1,8 @@
+[![Portfolio](https://img.shields.io/badge/Portfolio-Project-blue.svg)](https://github.com/Filiusd3i) 
 # 🗃️ Private Equity AP + Treasury Access Database System
+
 ![Entity Relationship Diagram](./images/workflow-diagram.svg)
+
 
 ## 🔍 Overview
 This project documents the design, development, and implementation of a custom Accounts Payable and Treasury Operations database system built entirely in Microsoft Access. It was developed to support a private equity firm with 50+ legal entities, spanning both management companies and funds, and operating across 4 different banks.
