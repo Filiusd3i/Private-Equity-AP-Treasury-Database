@@ -29,7 +29,7 @@ This system provided significant business value:
 6.  🏗️ **Relational Schema Design**: Built a normalized schema with clearly defined one-to-many relationships (Vendors → Invoices, Invoices → Payments, Funds ↔ Deal Allocations, Invoices ↔ Fund Allocations). Indexed tables to optimize performance within Access's constraints.
 
 ## 📊 Database Architecture
-![Entity Relationship Diagram](./images/database-erd.svg)
+![Entity Relationship Diagram](./images/database-erd-fixed.svg)
 *(Note: The ERD image `database-erd.svg` should be placed in the `images` folder. A placeholder is used if the actual ERD is not available.)*
 
 The database follows a relational design that connects funds, vendors, invoices, and payments with allocation tables to support complex private equity fund structures.
