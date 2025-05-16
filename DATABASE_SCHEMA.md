@@ -70,9 +70,6 @@ Indexes:
   PrimaryKey (Unique: True) - Refers to invoice_id
   vendor_id (Unique: False)
 
-### TABLE: Paste Errors
------------------------------
-Field: F1 | Type: 10 (Text) | Size: 255 *(Utility table, likely for temporary import error logging)*
 
 ### TABLE: payments
 -----------------------------
@@ -86,16 +83,6 @@ Indexes:
   Index_F3A895D2_0D7C_4F5A (Unique: True) - Refers to payment_id (likely Primary Key)
   Invoicespayments (Unique: False) - Likely a relationship name
 
-### TABLE: temp_import_vendors
------------------------------
-Field: temp_vendor_id | Type: 4 (Long Integer) | Size: 4
-Field: vendor_name | Type: 10 (Text) | Size: 255
-Field: contact_name | Type: 10 (Text) | Size: 255
-Field: phone_number | Type: 10 (Text) | Size: 50
-Field: email | Type: 10 (Text) | Size: 255
-Field: address | Type: 10 (Text) | Size: 255
-Indexes:
-  Index_51BE59D2_82C0_4AE1 (Unique: True) - Refers to temp_vendor_id (likely Primary Key)
 
 ### TABLE: Vendor allocation
 -----------------------------
