@@ -1,0 +1,7 @@
+# Microsoft Access specific
+*.ldb
+*.laccdb
+
+# General
+.DS_Store
+Thumbs.db 
